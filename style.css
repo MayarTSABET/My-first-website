@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+    font-size: 18px;
+    font-family: 'Bai Jamhuree', sans-serif ;
+}
+header {
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-header-desktop.png);
+    background-size: cover;
+}
+.intro {
+    text-align: center;
+    padding: 10px 0;
+    width: 1440px;
+}
+.intro h2 {
+    padding: 5px 0;
+}
+.action_button {
+    padding: 20px 0;
+}
+.action_button button {
+    padding: 10px 25px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    margin: 0 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.action_button button.ios {
+    background-color:hsl(171,66%,44%);
+    box-shadow: 2px 2px 8px hsl(171,66%,44%),2px 2px 2px hsl(171,66%,44%);
+}
+.action_button button.mac {
+    background-color: hsl(233,100%,69%);
+    box-shadow: 2px 2px 8px hsl(233,100%,69%), 2px 2px 2px hsl(233,100%,69%);
+} 
+.one {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+.one h2 {
+    padding: 15px 0;
+}
+.two {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 0;
+}
+.two img {
+    height: 100%;
+    width: 80%;
+}
+.two .features div {
+    margin-top: 40px;
+    width: 65%;
+}
